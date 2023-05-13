@@ -1,0 +1,79 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+db/data
+db/elasticsearch
+
+
+# compiled output
+dist
+tmp
+out-tsc
+.webpack
+
+# dependencies
+node_modules
+
+#
+# IDEs and editors
+#
+# intelliJ
+*.iml
+*.iws
+*.ipr
+.idea
+# eclipse
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+# subline
+*.sublime-workspace
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+# VSCode
+.vscode/*
+.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+.sass-cache
+connect.lock
+coverage
+libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+typings
+documentation
+DOCUMENTATION.md-e
+test-report.xml
+.env
+
+# Terraofrm
+*.terraform
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
